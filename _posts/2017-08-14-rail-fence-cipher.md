@@ -7,9 +7,9 @@ tags:
 redirect_from:
 ---
 
-#### Escribe una función que se encargue de cifrar un texto mediante el cifrado Rail Fence. <sup>1</sup>
+#### Escribe una función que se encargue de cifrar un texto mediante el cifrado Rail Fence.
 
-##### Cifrado Rail Fence<sup>2</sup>
+##### Cifrado Rail Fence<sup>1</sup>
 El cifrado Rail Fence es una forma de cifrado por transposición que debe su nombre a la forma en que se realiza la codificación de los textos. Era usado por los antiguos griegos.
 
 En el cifrado Rail Fence, el texto plano se escribe hacia abajo diagonalmente a través de sucesivos raíles de una valla imaginaria y luego se escribe hacia arriba también diagonalmente. Dicho proceso se repite hasta que se acaba el mensaje que se quiere cifrar. El mensaje cifrado se obtiene tomando los caracteres fila a fila. Por ejemplo, si tenemos 3 "raíles" y el mensaje 'WE ARE DISCOVERED FLEE AT ONCE', haremos lo siguiente:
@@ -204,6 +204,5 @@ print(decipher(text))
 
 ##### Referencia
 <ol>
-  <li>Rail Fence Cipher: <a href="http://exercism.io/exercises/python/rail-fence-cipher/readme">http://exercism.io/exercises/python/rail-fence-cipher/readme</a></li>
   <li>Cifrado Rail Fence: <a href="https://es.wikipedia.org/wiki/Cifrado_Rail_Fence">https://es.wikipedia.org/wiki/Cifrado_Rail_Fence</a></li>
 </ol>
